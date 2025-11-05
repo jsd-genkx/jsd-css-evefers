@@ -18,4 +18,41 @@
 
 body {
 	font-family: var(--font-sans), serif;
+
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 16px auto;
+
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.product-item {
+  width: calc(100%/3);
+  margin-bottom: 16px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+
+.product-image {
+  width: 100%;
+  height: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+
+
+
+
+
